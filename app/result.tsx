@@ -1,0 +1,33 @@
+import { View, Text } from "react-native";
+import { Button } from "@react-navigation/elements";
+import { useRouter } from "expo-router";
+
+export default function Resultado() {
+  const router = useRouter();
+
+  return (
+    <View style={{ flex: 1 }}>
+      {/* Header azul */}
+      <View style={{
+        width: "100%",
+        paddingVertical: 18,
+        paddingHorizontal: 12,
+        backgroundColor: "#b8b8b8ff",
+        elevation: 4,
+        shadowColor: "#000",
+        shadowOpacity: 0.2,
+        shadowRadius: 2,
+      }}>
+        <Text style={{ color: "#fff", fontSize: 22, fontWeight: "bold" }}>
+          Quiz React - Resultado
+        </Text>
+      </View>
+      {/* Conteúdo */}
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{ fontSize: 24, marginBottom: 20 }}>Parabéns!</Text>
+        <Text>Você acertou todas as questões!</Text>
+        <Button onPress={() => router.replace("/")}>Voltar ao início</Button>
+      </View>
+    </View>
+  );
+}
