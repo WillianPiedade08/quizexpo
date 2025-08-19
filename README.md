@@ -21,3 +21,4 @@ npx create-expo-app@latest posts
 cd posts
 npm run reset-project
 ```
+Wireflames das Telas
