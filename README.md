@@ -25,6 +25,6 @@ npm run reset-project
 
 ![](./assets/images/tela3.png)
 
-![](./assets/images/tela2.png)
-
 ![](./assets/images/tela1.png)
+
+![](./assets/images/tela2.png)
