@@ -23,8 +23,8 @@ npm run reset-project
 ```
 ## Wireflames das Telas
 
-![](./assets/images/tela1.png)
+![](./assets/images/tela3.png)
 
 ![](./assets/images/tela2.png)
 
-![](./assets/images/tela3.png)
+![](./assets/images/tela1.png)
